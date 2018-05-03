@@ -1,9 +1,4 @@
-# ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Positioning (20 mins)
-
-| Timing | Type | Topic |
-| --- | --- | --- |
-| 5 mins | [Introduction](#introduction-positioning) | Positioning |
-| 15 mins | [Demo/Codealong](#demo-positioning) | Positioning |
+# ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Positioning
 
 ### LEARNING OBJECTIVES
 *After this lesson, you will be able to:*
@@ -12,16 +7,15 @@
 - Use cases of static, relative, fixed, and absolute positioning. 
 
 <a name="introduction-positioning"></a>
-## Introduction: Positioning (5 mins)
+## Introduction: Positioning 
 
 The CSS `position` property is a way to build more complexity into your page layout; creating things like a sticky header that remains in place as the user scrolls, or text that appears on top of an image. Let's look at some examples.
 
 ***
 
 <a name="demo-positioning"></a>
-## Demo: Positioning (15 mins)
+## Demo: Positioning
 
-> Instructor note: Demo for students. Some example code that can be used to demo this can be found in [examples/positioning-101](examples/positioning-101).
 
 ### Static
 The default value of every element is `static.` A `static` object receives its layout rules from properties such as `display` and `float`, and is considered an 'un-positioned' element. Any element that has a value other than `static` is referred to as a 'positioned' element.
