@@ -60,7 +60,7 @@ nav {
   background-color: white;
   box-shadow: 0 3px 11px rgba(0, 0, 0, .1);
   transition: all 300ms ease-out;
-
+  position: fixed;
   /* Step 1: Add styles for fixed nav */
 
 }
@@ -107,18 +107,24 @@ nav .active {
 
 .bug-wrapper {
  /* Hint: add code here */
+ height: 100vh;
+ width: 100%;
   display: inline-block;
 }
 
 .diag-1 {
   /* Hint: add code here */
-
+  position: absolute;
+  top: 50px;
+  left: -500px;
 }
 
 .diag-2 {
   /* Hint: add code here */
+  /* position: absolute; */
 }
 
 .diag-3 {
   /* Hint: add code here */
+ /* position: absolute; */
 }
